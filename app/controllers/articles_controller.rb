@@ -9,12 +9,6 @@ class ArticlesController < ApplicationController
     @article = Article.new(article_params)
     @article.save
     redirect_to @article
-
-    private
-
-    def article_params
-      params.require(:article).permit(:title, :text)
-    end
   end
 
   def show
@@ -28,5 +22,10 @@ class ArticlesController < ApplicationController
   end
 
   def destroy
+  end
+
+  private
+  def article_params
+    params.require(:article).permit(:title, :text)
   end
 end
