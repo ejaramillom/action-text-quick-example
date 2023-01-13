@@ -1,0 +1,28 @@
+{
+  "name": "action-text-quick-example",
+  "version": "1.0.0",
+  "description": "Quick example of implementation of action text for rails 6.0 with active storage",
+  "main": "babel.config.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ejaramillom/action-text-quick-example.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ejaramillom/action-text-quick-example/issues"
+  },
+  "homepage": "https://github.com/ejaramillom/action-text-quick-example#readme",
+  "dependencies": {
+    "@rails/actiontext": "^7.0.4",
+    "trix": "^2.0.4"
+  }
+}
